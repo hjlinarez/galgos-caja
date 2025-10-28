@@ -61,7 +61,7 @@ function Cajakeno() {
     const [jugadas, setJugadas] = useState(JugadasInicial)
     const [pagos, setPagos] = useState([]);
     const [procesando, setProcesando] = useState(false);
-    const [montoApuesta, setMontoapuesta] = useState(null);
+    const [montoApuesta, setMontoapuesta] = useState("");
 
     
 
@@ -585,6 +585,7 @@ function Cajakeno() {
 
       const agregarJugada = () => {
         let new_jugadas = [...jugadas];
+        console.log(montoApuesta);
         if (montoApuesta == null || montoApuesta <= 0) {
             swal("Disculpe", "Monto Invalido!", "error");
             enfocarNum();

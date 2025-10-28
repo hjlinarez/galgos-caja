@@ -18,9 +18,13 @@ function App() {
     const navigate = useNavigate();
     const location = useLocation();
     const [loading, setLoading] = useState(true);
+    
 
     
     useEffect(() => {
+        
+        
+        
         const token = localStorage.getItem('token');
         if (token) {
             
@@ -70,6 +74,7 @@ function App() {
             });
         }
         else{
+            
             userSignal.value = {};
             tokenSignal.value = '';
             localStorage.removeItem('user');
