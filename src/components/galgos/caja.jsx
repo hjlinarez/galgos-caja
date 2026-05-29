@@ -47,7 +47,7 @@ function Caja() {
     const checkUser = () => {
         const usuario = localStorage.getItem("user");
         if (!usuario) {
-            window.location.href = "/login";
+            //window.location.href = "/login";
         }
     };
 
