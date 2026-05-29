@@ -38,16 +38,16 @@ function Footer( ) {
                     <li className="nav-item">
                         <button type="button" className="btn btn-sucess" onClick={ ()=> setZoom(Number(zoom) + 0.1) }><i className="fa-solid fa-magnifying-glass-plus"></i></button>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item d-none ">
                         <a href="/keno" className="btn btn-sucess">Keno</a>                        
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item d-none ">
                         <a href="/galgos" className="btn btn-sucess" >Galgos</a>                        
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item d-none ">
                         <a href="/Ruleta" className="btn btn-sucess" >Ruleta</a>                        
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item d-none">
                         <a href="/Gallos" className="btn btn-sucess" >Gallos</a>                        
                     </li>
                     <li className="nav-item ms-auto">

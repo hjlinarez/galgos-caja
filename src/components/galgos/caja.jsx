@@ -25,7 +25,7 @@ import  "./caja.css";
 
 function Caja() {
        
-    document.title = "Galgos | Kesk Plays";
+    document.title = "Galgos - Caja";
     
 
     const [ user, setUser ] = useState(userSignal.value);
