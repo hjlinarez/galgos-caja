@@ -1,5 +1,5 @@
 export function evento(setCarrera) {
-    fetch('https://api.keskplay.com/api/ruleta/sorteo')
+    fetch('https://api.vezlabet.bet/api/ruleta/sorteo')
         .then(response => response.json())
         .then(
             function(data){

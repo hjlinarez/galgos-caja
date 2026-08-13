@@ -1,7 +1,7 @@
 export function evento(setSorteo) {
 
 
-    fetch('https://api.keskplay.com/api/keno/sorteo')
+    fetch('https://api.vezlabet.bet/api/keno/sorteo')
         .then(response => response.json())
         .then(
                 function(data){

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo_keskplay.png"; // Ajusta la ruta según la ubicación real de tu imagen
+import logo from "../img/loading.gif"; // Ajusta la ruta según la ubicación real de tu imagen
 
 function Procesando({ visible = false }) {
   if (!visible) return null;

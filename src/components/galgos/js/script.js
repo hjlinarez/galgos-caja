@@ -1,7 +1,7 @@
 export function evento(setCarrera) {
 
 
-    fetch('https://api.keskplay.com/api/galgos/carrera')
+    fetch('https://api.vezlabet.bet/api/galgos/carrera')
         .then(response => response.json())
         .then(
                 function(data){
